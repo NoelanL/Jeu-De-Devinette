@@ -1,0 +1,91 @@
+html{
+    font-family: Roboto Light, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+#topDiv{
+    margin: 0;
+    height: 100px;
+    background-color: cornflowerblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#topDiv h1{
+    margin: 0;
+}
+
+#divButJeu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 350px;
+    width: 350px;
+    padding-left: 1em;
+    background-color: #ffe13d;
+    border: 1px solid;
+    font-size: 20px;
+}
+
+#divButJeu h1{
+    color: red;
+}
+
+#divButJeu span{
+    color: red;
+    text-decoration: underline;
+}
+
+#divButJeu i{
+    color: orange;
+}
+
+#listeChiffreutilise{
+    display: flex;
+    margin: 0 0 0 43%;
+    background-color: lightgrey;
+    height: 250px;
+    width: 200px;
+    border: 1px solid black;
+    box-shadow: rgb(252, 252, 252) 0 30px 60px -12px inset,
+                rgba(0, 0, 0, 0.3) 0 18px 36px -18px inset;
+}
+
+#middleDiv{
+    background-color: #ffe13d;
+    display: flex;
+    flex-direction: column;
+    height: 780px;
+}
+
+#inputNumber{
+    height: 20px;
+    width: 195px;
+    margin-left: 43%;
+    margin-top: 10px;
+}
+
+h2{
+    width: 370px;
+    color: cornflowerblue;
+    margin-left: 36.5%;
+}
+
+#verifiResult{
+    margin-top: 10px;
+    width: 55px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: limegreen;
+}
+
+#lastDiv{
+    display: flex;
+    flex-direction: row;
+
+}
