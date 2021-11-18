@@ -1,4 +1,4 @@
-let userSend = document.getElementById('envoie');
+let userSend = document.getElementsByClassName('envoie');
 let button = document.getElementById('verifiResult');
 let lastDiv = document.getElementById('lastDiv');
 let numberTry = 0;
@@ -33,7 +33,7 @@ function button1 () {
 
     for (let i = 0; i < input; i++){
         let numberUsed = document.createElement('li');
-        numberUsed.innerHTML = "Tu as déjà utilisé " + document.getElementById('input').value;
+        numberUsed.innerHTML = "Tu as déjà utilisé " + input;
         numberUsed.style.color = 'blue';
         userSend.item(i).append(numberUsed);
     }
