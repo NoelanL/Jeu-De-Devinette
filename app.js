@@ -33,7 +33,7 @@ function button1 () {
 
     for (let i = 0; i < input; i++){
         let numberUsed = document.createElement('li');
-        numberUsed.innerHTML = "Tu as déjà utilisé " + input;
+        numberUsed.innerHTML = "Tu as déjà utilisé le " + input;
         numberUsed.style.color = 'blue';
         userSend.item(i).append(numberUsed);
     }
