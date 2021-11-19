@@ -4,9 +4,6 @@ let lastDiv = document.getElementById('para');
 let numberTry = 0;
 let randomNumber = Math.random() * 101;
 randomNumber = Math.trunc(randomNumber);
-console.log(randomNumber);
-
-
 
 function button1 () {
 
