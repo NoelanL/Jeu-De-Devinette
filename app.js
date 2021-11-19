@@ -1,6 +1,6 @@
 let userSend = document.getElementsByClassName('envoie');
 let button = document.getElementById('verifiResult');
-let lastDiv = document.getElementById('lastDiv');
+let lastDiv = document.getElementById('para');
 let numberTry = 0;
 let randomNumber = Math.random() * 101;
 randomNumber = Math.trunc(randomNumber);
